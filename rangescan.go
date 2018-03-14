@@ -1,6 +1,8 @@
 package buckets
 
-import "github.com/boltdb/bolt"
+import (
+  bolt "github.com/coreos/bbolt"
+)
 
 // A RangeScanner scans a bucket for keys within a given range.
 type RangeScanner struct {

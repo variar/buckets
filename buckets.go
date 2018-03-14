@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/boltdb/bolt"
+	bolt "github.com/coreos/bbolt"
 )
 
 // A DB is a bolt database with convenience methods for working with buckets.
