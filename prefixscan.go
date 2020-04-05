@@ -3,7 +3,7 @@ package buckets
 import (
 	"bytes"
 
-	bolt "github.com/coreos/bbolt"
+	bolt "go.etcd.io/bbolt"
 )
 
 // A PrefixScanner scans a bucket for keys with a given prefix.

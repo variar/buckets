@@ -16,7 +16,7 @@ multiple readers and a single writer. Bolt can be used for projects that
 want a simple data store without the need to add large dependencies such as
 Postgres or MySQL."
 
-See https://github.com/coreos/bbolt for important details.
+See https://github.com/etcd-io/bbolt for important details.
 
 */
 package buckets
